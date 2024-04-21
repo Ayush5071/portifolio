@@ -25,7 +25,7 @@ html,body{
     display: none;
 }
 #page1{
-    height: 120vh;
+    height: 140vh;
     width: 100vw;
     background-color: #C6BEB5;
     position: relative;
@@ -88,7 +88,7 @@ html,body{
     margin-left: 10px;
 }
 #elem1 p{
-    font-size: 22px;
+    font-size: 20px;
     font-family: domain;
     font-weight: 100;
     color: #656565;
@@ -103,12 +103,12 @@ html,body{
 }
 #elem2 h2{
     font-family: Canopee;
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 100;
 }
 #elem2 h3{
     font-family: domain;
-    font-size: 46px;
+    font-size: 30px;
     font-weight: 100;
     color: #2f2f2f;
     margin: 10px 0;
@@ -150,7 +150,7 @@ html,body{
     margin-left: 10px;
 }
 #elem3 p{
-    font-size: 22px;
+    font-size: 20px;
     font-family: domain;
     font-weight: 100;
     color: #656565;
@@ -166,13 +166,14 @@ html,body{
     scale: 1.1;
 }
 #page1 h1{
-    font-size: 550px;
+    font-size: 450px;
     font-family: Canopee;
     font-weight: 100;
     background-color: #1C1B19;
     color: #C6BEB5;
-    line-height: 550px;
+    line-height: 480px;
     text-align: center;
+    /* padding: 40px 0px; */
     width: 96%;
     margin-left: 2%;
     letter-spacing: -25px;
@@ -194,30 +195,30 @@ html,body{
     border-right: 1px solid #222;
 }
 #page2-left h2{
-    font-size: 130px;
+    font-size: 90px;
     font-family: canopee;
     line-height: 120px;
     font-weight: 100;
 }
 #page2-left h2 span{
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 800;
 
 }
 #page2-left p{
-    font-size: 28px;
+    font-size: 20px;
     font-family: domain;
     color: #2f2f2f;
     font-weight: 100;
     
 }
 #page2-left p span{
-    font-size: 60px;
+    font-size: 50px;
     font-family: domain;
     color: #1C1B19;
     /* background-color: #222; */
     font-family: canopee;
-    line-height: 50px;
+    line-height: 43px;
     font-weight: 500;
 
 }
@@ -234,10 +235,10 @@ html,body{
 }
 #page2-right h1{
     font-family: canopee;
-    font-size: 90px;
+    font-size: 65px;
     letter-spacing: 0px;
     font-weight: 100;
-    line-height: 100px;
+    line-height: 80px;
     
 }
 #page2-right img{
@@ -251,7 +252,7 @@ html,body{
     position: relative;
 }
 #page3 h1{
-    font-size: 550px;
+    font-size: 420px;
     font-family: canopee;
     background-color: #1C1B19;
     color: #C4BCB3;
@@ -273,7 +274,7 @@ html,body{
 #page4{
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     justify-content: space-between;
     background-color: #C4BCB3;
@@ -295,22 +296,22 @@ html,body{
     padding: 80px 60px;
 }
 #page4-right h1{
-    font-size: 110px;
+    font-size: 80px;
     font-family: canopee;
     letter-spacing: -2px;
     text-align: center;
     }
 #page4-right p{
-    font-size: 30px;
+    font-size: 25px;
     font-family: domain;
     font-weight: 100;
     color: #2f2f2f;
-    line-height: 38px;
+    line-height: 28px;
 
 }
 #page4-right #anda{
-    margin-top: 28px;
-    height: 260px;
+    margin-top: 18px;
+    height: 220px;
     border-radius: 50%;
     position: relative;
     background-color: #CAC1B6;
@@ -323,15 +324,15 @@ html,body{
 
 }
 #anda h1{
-    font-weight: 100px;
+    font-weight: 100;
     font-family: canopee;
     height: 100%;
     width: 100%;
-    font-size: 80px;
+    font-size: 60px;
     display: flex;
     align-items: center;
-    transform: translateX(-31%);
-    transition: all ease 0.6s;
+    transform: translateX(-71%);
+    transition: all ease 0.8s;
 }
 #anda img{
     height: 80px;
@@ -339,10 +340,10 @@ html,body{
     transition: all ease 0.6s;
 }
 #anda:hover img{
-    transform: translateX(71%);
+    transform: translateX(45%);
 }
 #anda:hover h1{
-    transform: translateX(110%);
+    transform: translateX(130%);
 }
 #page5{
     width: 100%;
