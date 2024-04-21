@@ -41,9 +41,12 @@ html,body{
     padding: 4px 18px;
 
 }
-#nav img {
-    height: 35px;
-    width: 40%;
+#nav h6 {
+    font-size: 70px;
+    font-family: canopee;
+    position: absolute;
+    font-weight: 100;
+    left: 38%;
 }
 #nav h5{
     font-size: 26px;
@@ -55,6 +58,7 @@ html,body{
     font-weight: 100;
     text-align: right;
     width: 30%;
+    display: none;
 }
 #elems{
     height: 430px;
@@ -121,12 +125,12 @@ html,body{
     height: 100%;
 }
 #elem1 #image-div{
-    height: 50%;
+    height: 60%;
     width: 100%;
     overflow: hidden;
 }
 #elem3 #image-div{
-    height: 50%;
+    height: 60%;
     width: 100%;
     overflow: hidden;
 }
@@ -162,12 +166,12 @@ html,body{
     scale: 1.1;
 }
 #page1 h1{
-    font-size: 700px;
+    font-size: 550px;
     font-family: Canopee;
     font-weight: 100;
     background-color: #1C1B19;
     color: #C6BEB5;
-    line-height: 600px;
+    line-height: 550px;
     text-align: center;
     width: 96%;
     margin-left: 2%;
@@ -190,13 +194,13 @@ html,body{
     border-right: 1px solid #222;
 }
 #page2-left h2{
-    font-size: 150px;
+    font-size: 130px;
     font-family: canopee;
-    line-height: 160px;
+    line-height: 120px;
     font-weight: 100;
 }
 #page2-left h2 span{
-    font-size: 210px;
+    font-size: 150px;
     font-weight: 800;
 
 }
@@ -210,7 +214,7 @@ html,body{
 #page2-left p span{
     font-size: 60px;
     font-family: domain;
-    color: #C6BEB5;
+    color: #1C1B19;
     /* background-color: #222; */
     font-family: canopee;
     line-height: 50px;
@@ -240,5 +244,161 @@ html,body{
     height: 60%;
     width: 100%;
     object-fit: cover;
+}
+#page3{
+    height: 55vh;
+    background-color: #C6BEB5;
+    position: relative;
+}
+#page3 h1{
+    font-size: 550px;
+    font-family: canopee;
+    background-color: #1C1B19;
+    color: #C4BCB3;
+    width: fit-content;
+    font-weight: 100;
+    letter-spacing: -7px;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 470px;
+
+}
+#page3 img{
+    height: 470px;
+    position: absolute;
+    top: 0;
+    right: 2%;
+    background-color: #1C1B19;
+}
+#page4{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #C4BCB3;
+}
+#page4-left{
+    width: 65%;
+    height: 100%;
+    padding: 80px 60px;
+}
+#page4-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page4-right{
+    width: 35%;
+    height: 100%;
+    padding: 80px 60px;
+}
+#page4-right h1{
+    font-size: 110px;
+    font-family: canopee;
+    letter-spacing: -2px;
+    text-align: center;
+    }
+#page4-right p{
+    font-size: 30px;
+    font-family: domain;
+    font-weight: 100;
+    color: #2f2f2f;
+    line-height: 38px;
+
+}
+#page4-right #anda{
+    margin-top: 28px;
+    height: 260px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #CAC1B6;
+    width: 100%;
+    border: 1px solid #2f2f2fbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+#anda h1{
+    font-weight: 100px;
+    font-family: canopee;
+    height: 100%;
+    width: 100%;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    transform: translateX(-31%);
+    transition: all ease 0.6s;
+}
+#anda img{
+    height: 80px;
+    transform: translateX(-120%);
+    transition: all ease 0.6s;
+}
+#anda:hover img{
+    transform: translateX(71%);
+}
+#anda:hover h1{
+    transform: translateX(110%);
+}
+#page5{
+    width: 100%;
+    background-color: #C6BEB5;
+    padding: 30px 0;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    border-bottom: 1px solid #1C1B19;
+    border-bottom: 1px solid #1C1B19;
+}
+#page5::-webkit-scrollbar{
+    display: none;
+}
+#page5 h1{
+    font-size: 100px;
+    font-family: domain;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 36px;
+    animation-name: scroll;
+    animation-duration: 3.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+#page5 span{
+    font-size: 100px;
+    font-family: canopee;
+    background-color: #1C1B19;
+    color: #C6BEB5;
+    font-weight: 100;
+    padding: 0 12px;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 36px));
+    }
+}
+#page5:hover h1{
+    animation-play-state: paused;
+}
+#page6{
+    width: 100%;
+    background-color: #C6BEB5;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page6 h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: canopee;
 
 }
